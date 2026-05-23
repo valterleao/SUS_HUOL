@@ -1,6 +1,8 @@
-# AV2 — Data Lake Saúde (HUOL / SUS)
+# SUS_HUOL — Data Lake Saúde (HUOL / SUS)
 
-Sistema de análise integrando internações SUS (estruturado) e Instagram @huol_ufrn (não estruturado) para apoio à decisão de credenciamento SUS.
+Repositório do Trabalho AV2 — Sistemas de Apoio à Decisão (UNI7).
+
+Sistema de análise integrando internações SUS (estruturado) e Instagram [@huol_ufrn](https://www.instagram.com/huol_ufrn/) (não estruturado) para apoio à decisão de credenciamento SUS de um hospital privado em Natal/RN.
 
 ## Stack
 
@@ -12,10 +14,12 @@ Sistema de análise integrando internações SUS (estruturado) e Instagram @huol
 ## Execução rápida
 
 ```powershell
-cd h:\UNI7\SAD-Lina\AV2-TRABALHO-2-SUS
+git clone https://github.com/valterleao/SUS_HUOL.git
+cd SUS_HUOL
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
+copy .env.example .env
 python scripts\run_pipeline.py
 ```
 
@@ -33,6 +37,7 @@ docker compose -f docker/docker-compose.minio.yml up -d
 
 Console: http://localhost:9001 (minioadmin / minioadmin)
 
-## Documentação do trabalho
+## Documentação
 
-Ver [`docs/TRABALHO_AV2_SUS_HUOL.md`](docs/TRABALHO_AV2_SUS_HUOL.md).
+- Trabalho escrito: [`docs/TRABALHO_AV2_SUS_HUOL.md`](docs/TRABALHO_AV2_SUS_HUOL.md)
+- Power BI: [`powerbi/README_POWERBI.md`](powerbi/README_POWERBI.md)
