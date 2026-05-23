@@ -1,0 +1,26 @@
+﻿comment_id;post_id;autor;data_comentario;curtidas;texto_comentario
+cmt_001;post_101;maria_silva;2025-03-12;12;Excelente atendimento no HUOL, equipe muito atenciosa! #saude
+cmt_002;post_101;joao_rn;2025-03-12;3;Demora na emergencia foi grande, mas o medico foi competente.
+cmt_003;post_102;ana_costa;2025-04-01;8;Hospital referencia em Natal, parabens aos profissionais.
+cmt_004;post_102;pedro_123;2025-04-02;1;Pessima experiencia, falta de leitos e atendimento lento.
+cmt_005;post_103;lucia_m;2025-04-15;15;Meu filho foi bem cuidado na pediatria, muito obrigada HUOL!
+cmt_006;post_103;carlos_ufrn;2025-04-16;5;Estrutura antiga mas medicos excelentes.
+cmt_007;post_104;renata_rn;2025-05-02;0;Aguardando resultado de exame ha duas semanas.
+cmt_008;post_104;felipe_h;2025-05-03;7;Atendimento humanizado na maternidade, recomendo.
+cmt_009;post_105;sandra_p;2025-05-10;2;Nao gostei da limpeza do quarto.
+cmt_010;post_105;miguel_t;2025-05-11;20;O HUOL salvou minha mae, gratidao eterna!
+cmt_011;post_106;julia_f;2025-06-01;4;Consulta marcada com atraso de 3 horas.
+cmt_012;post_106;rafael_n;2025-06-02;9;Bom hospital publico, SUS precisa de mais investimento.
+cmt_013;post_107;patricia_l;2025-06-15;6;Equipe da UTI muito preparada.
+cmt_014;post_107;bruno_s;2025-06-16;1;Horrivel, nunca mais volto.
+cmt_015;post_108;camila_r;2025-07-01;11;Educação em saude de qualidade na UFRN.
+cmt_016;post_108;diego_m;2025-07-02;3;Normal, nem bom nem ruim.
+cmt_017;post_109;eliane_p;2025-08-10;14;Residencia medica muito boa, aprendizado excelente.
+cmt_018;post_109;gustavo_h;2025-08-11;2;Fila enorme no pronto socorro.
+cmt_019;post_110;helena_c;2025-09-01;18;Melhor hospital universitario do RN!
+cmt_020;post_110;ivan_j;2025-09-02;0;Sem comentarios adicionais.
+cmt_021;post_111;katia_m;2025-10-05;7;Cirurgia bem sucedida, equipe cirurgica impecavel.
+cmt_022;post_111;leo_a;2025-10-06;1;Desorganizacao no agendamento.
+cmt_023;post_112;monica_s;2025-11-01;10;Atendimento SUS eficiente neste hospital.
+cmt_024;post_112;nelson_b;2025-11-02;4;Precisa reformar instalacoes.
+cmt_025;post_113;olivia_t;2025-12-01;16;Profissionais dedicados mesmo com alta demanda.

@@ -1,0 +1,3 @@
+ingested_at=2026-05-23T01:59:39.691823
+source=coleta_manual_amostra
+rows=25

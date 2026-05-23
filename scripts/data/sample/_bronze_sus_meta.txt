@@ -1,0 +1,3 @@
+ingested_at=2026-05-23T01:59:06.610379
+source=data\sample\internacoes_huol_2024_2025.csv
+file_hash=96d0e01a01bd165b00fd5dc94f65fa1b
