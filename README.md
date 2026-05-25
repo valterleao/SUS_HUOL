@@ -53,7 +53,7 @@ O script `01_ingest_sus.py` **concatena todos** os `*.csv` de `data/raw/sus/`. S
 - **Python 3.10+** — pipelines e NLP
 - **MinIO** (Docker, opcional) — Data Lake objeto
 - **PostgreSQL** — Data Warehouse `SUS_HUOL`
-- **Power BI** — dashboard ([guia](powerbi/README_POWERBI.md))
+- **Power BI** — dashboard `AV2-SUS-TRB2.pbix` ([guia](powerbi/README_POWERBI.md) | capturas em [Dashboard](#dashboard-power-bi))
 
 ### MinIO (opcional)
 
@@ -167,6 +167,47 @@ Se MinIO não estiver ativo, o pipeline grava em `data/sample/` (fallback docume
 
 ---
 
+## Dashboard Power BI
+
+Relatório desenvolvido no Power BI (`powerbi/AV2-SUS-TRB2.pbix`), com exportação em `AV2-SUS-TRB2.pdf`. As capturas abaixo respondem visualmente às perguntas de negócio do trabalho.
+
+### Página 1 — Demanda SUS
+
+Visão geral da demanda de internações: distribuição por município, sazonalidade, perfil etário/gênero e top 10 especialidades.
+
+![Dashboard Power BI - Página Demanda SUS](docs/images/dashboard/pagina_1.png)
+
+| Visual | Pergunta / insight |
+|--------|-------------------|
+| Top 5 municípios | Q3 — Natal lidera com 4.863 internações (~35%) |
+| Sazonalidade | Q4 — Distribuição por estação e mês |
+| Perfil etário e gênero | Q2 — Maior volume na faixa 60+ |
+| Top 10 especialidades | Q1 — Cardiologia, Urologia e Cirurgia Geral |
+
+### Página 2 — Percepção social
+
+Análise dos comentários do Instagram @huol_ufrn: sentimento e termos mais citados.
+
+![Dashboard Power BI - Página Percepção Social](docs/images/dashboard/pagina_2.png)
+
+| Visual | Pergunta / insight |
+|--------|-------------------|
+| Donut de sentimento | Q6 — 44% positivo, 32% neutro, 24% negativo |
+| Nuvem de palavras | Q5 — Destaque para *atendimento*, *profissionais*, *hospital*, *equipe* |
+
+### Página 3 — Internações por cidade e especialidades
+
+Tabelas detalhadas de municípios (capital/interior) e ranking completo de especialidades.
+
+![Dashboard Power BI - Página Cidade e Especialidades](docs/images/dashboard/pagina_3.png)
+
+| Visual | Pergunta / insight |
+|--------|-------------------|
+| Tabela por município | Q3 — 13.964 internações; Natal 34,84% |
+| Ranking de especialidades | Q1 — Lista completa até 28ª posição |
+
+---
+
 ## 7. Análises estruturadas (13.964 internações)
 
 ### 7.1 Especialidades (Q1)
@@ -266,6 +307,8 @@ Pipeline completo (Data Lake, NLP, DW **`SUS_HUOL`**) integrado aos dados reais 
 |---------|----------|
 | [docs/TRABALHO_AV2_SUS_HUOL.md](docs/TRABALHO_AV2_SUS_HUOL.md) | Versão para entrega acadêmica (espelho deste README) |
 | [powerbi/README_POWERBI.md](powerbi/README_POWERBI.md) | Conexão e visuais Power BI |
+| [AV2-SUS-TRB2.pdf](AV2-SUS-TRB2.pdf) | Export PDF do dashboard |
+| [docs/images/dashboard/](docs/images/dashboard/) | Capturas PNG das 3 páginas do BI |
 | [Trabalho AV2 DW Saúde.pdf](Trabalho%20AV2%20DW%20Saúde.pdf) | Enunciado da disciplina |
 
 **Estrutura do repositório:** `scripts/` (pipeline), `sql/` (DW), `docker/` (MinIO), `data/raw/sus/` (seus CSV).
