@@ -1,5 +1,19 @@
 # Power BI — Dashboard AV2 SUS HUOL
 
+## Arquivo do relatório
+
+| Arquivo | Descrição |
+|---------|-----------|
+| [AV2-SUS-TRB2.pbix](AV2-SUS-TRB2.pbix) | Dashboard Power BI (abrir no Power BI Desktop) |
+| [../AV2-SUS-TRB2.pdf](../AV2-SUS-TRB2.pdf) | Exportação PDF com capturas das páginas |
+| [../docs/images/dashboard/](../docs/images/dashboard/) | PNGs das 3 páginas (exibidas no README) |
+
+**Páginas do dashboard:**
+
+1. **Demanda SUS** — municípios, sazonalidade, perfil etário/gênero, top especialidades  
+2. **Percepção social** — sentimento Instagram e nuvem de palavras  
+3. **Internações por cidade e especialidades** — tabelas detalhadas  
+
 ## Conexão PostgreSQL
 
 | Campo    | Valor        |
